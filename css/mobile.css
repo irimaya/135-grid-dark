@@ -1,0 +1,32 @@
+/* Utility Classes */
+.row-wrapper {
+  /* display: grid; */
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px 0;
+}
+
+/* Header */
+#mainheader {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.mainheader-title {
+  float: none;
+  width: 100%;
+}
+
+.mainheader-description {
+  float: none;
+  width: 100%;
+  padding-top:20px;
+}
+
+.mainheader-description p {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#mainfooter{
+  padding: 30px;
+}
